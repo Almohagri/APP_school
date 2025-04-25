@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'login_screen.dart';
 import 'students_dashboard_screen.dart';
+import '../components/wave_clipper.dart';
 
 class UserTypeSelectionScreen extends StatelessWidget {
   const UserTypeSelectionScreen({Key? key}) : super(key: key);
@@ -57,7 +58,7 @@ class UserTypeSelectionScreen extends StatelessWidget {
                               color: Colors.lightBlueAccent,
                               onTap: () => Navigator.of(context).push(
                                 MaterialPageRoute(
-                                  builder: (_) => const StudentsDashboardScreen(),
+                                  builder: (_) => const LoginScreen(),
                                 ),
                               ),
                             ),
