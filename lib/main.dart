@@ -26,4 +26,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// WaveClipper تم نقله إلى lib/components/wave_clipper.dart
+
